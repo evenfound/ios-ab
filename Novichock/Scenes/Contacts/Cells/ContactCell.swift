@@ -49,6 +49,8 @@ class ContactCell: UITableViewCell {
 		avatarImageView.image = UIImage()
 		nameLabel.text = nil
 		phoneLabel.text = nil
+		
+		setBackgroundColor(color: AppColor.deselectedCellColor)
 	}
 	
 	override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
